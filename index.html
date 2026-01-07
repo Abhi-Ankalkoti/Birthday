@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      
+      <link rel="stylesheet" href="indexstyle.css">
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sahana!😊🎉</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab"rel="stylesheet"/> 
+   <link rel="shortcut icon" type="image/png" href="birthday.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+  
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  
+  </head>
+   <body>
+    <div id="container" style="display:none">
+      <div class="s-2"></div>
+      <div class="card">
+          <div class="sides left-side">
+              <h1 class="profession"> Happy</h3>
+              <h3 class="name">         Sahana💫❤️ </h3>                
+          </div>                     
+          <div class="sides right-side">
+              <h1 class="profession"> Birthday</h3>
+              <h3 class="name"></h3>            
+              </div>       
+          <div class="back-side">
+              <p class="biography">
+                From the moment you came into my life, San 💫❤️, everything began to feel warmer and more meaningful 🌸✨. You are my calm when things get noisy, my smile on difficult days, and the place where my heart feels safest 🫶🤍. Even when miles separate us 🌍💔, you stay close to me—in my thoughts 💭💖, in my prayers 🙏✨, and in every quiet moment 🌙.
+
+Today is special 🎂🎉 because it’s your birthday, San 🎈💝—the day the world became brighter just by having you in it 🌎🌹. I wish I could be there with you 🤗❤️, holding your hand 🤝💓, looking into your eyes 👀💘, and celebrating you the way you deserve 🎊🎁. Until that moment comes, let these words carry my love to you 💌💖.
+
+Your voice, San, brings me peace 🎶🕊️, your laughter heals me 😍✨, and your presence—near or far—gives me strength 💪❤️. I love the way you understand me without words 🫶💞 and the way you turn ordinary moments into memories I’ll treasure forever 🌈💖.
+
+Distance has never weakened my love 🚫💔; it has only shown me how strong it truly is 🔥💘. I dream of the day I can celebrate every birthday 🎂, every smile 😊, and every little moment together 💑🎉.
+
+On your special day 🎀🎊, I wish you endless happiness 😊🌟, good health 🌷💪, and dreams that come true 🌙✨. Happy Birthday, my love San 🎂❤️. Today, tomorrow, and always—my heart is yours 🫶💖.  
+  
+  
+              </p>
+          </div>
+          
+          <button class="button" onClick="window.open('wish.html');">
+            A Massage For You
+       </button>
+
+          <!-- <a href="wish.html">
+              <button onclick="wish.html" >A Massage For You</button>            
+          </a> -->
+      </div>
+      <div class="s-1"></div>
+      <div class="right-col">
+        <img src="images/play.png" id="icon">
+      </div>
+      </div>
+      <span id="count"></span>
+
+     <div class="lording" >
+      <div class="center">
+         <div class="ring"></div>
+         <span>loading...</span>
+      </div>
+    </div>
+<div id="home" class="home-style-2 slider-area" style="display:none">
+
+  <div class="particles-js" id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1366" height="606"></canvas></div>
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  <audio id="hbdmp" autoplay loop >
+      
+    <source src="hbd.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    var hbdmp = document.getElementById("hbdmp")
+    var icon = document.getElementById("icon")
+
+    icon.onclick = function(){
+     if(hbdmp.paused){
+       hbdmp.play();
+       icon.src ="images/pause.png";
+     }else{
+       hbdmp.pause();
+       icon.src = "images/play.png";
+     }
+
+    }
+
+  </script>
+  <script>
+
+    setTimeout(function() {
+      $('.lording').hide()
+    }, 5000);
+    
+    setTimeout(function() {
+      $('#container').show()
+    }, 5199);
+    
+    
+    </script>
+    
+</body>
+</html>
